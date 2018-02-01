@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/DemoWidget" version="1.0.0">
+    <tizen:app-widget id="NgptKPoxA9.DemoWidget.DemoWidget" primary="true">
+        <tizen:widget-label>Hello Web Widget!</tizen:widget-label>
+        <tizen:widget-content src="widget/DemoWidget/index.html">
+            <tizen:widget-size preview="widget/DemoWidget/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="NgptKPoxA9.DemoWidget" package="NgptKPoxA9" required_version="4.0"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>DemoWidget</name>
+    <tizen:profile name="wearable"/>
+</widget>
