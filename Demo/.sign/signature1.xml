@@ -2,13 +2,9 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
-<Reference URI="SecondPage.html">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>NNB4mflHZmi9dkXEYzWWGhU2ZN03yMRD5LyFoRfk5a0=</DigestValue>
-</Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>sOxmjLVUt/A2t3HQ7IXHpkVLCu9lOoJgkV2e7P+8kfA=</DigestValue>
+<DigestValue>F/tsrcoptUAbpx+oVxuVOV/RoYRPmZo9zUW1XDnYrOw=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,11 +20,11 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>w/3hQLljx9gyOQsGJ/jIdDNH3/+AjDHy7u0tZqAq+bE=</DigestValue>
+<DigestValue>kGwO9v5PZGwV//M49sguJ+Rvr+8mOTjhF0NtZ3Hs16Q=</DigestValue>
 </Reference>
 <Reference URI="js%2Fapp.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>s3eCAHrvnI2E7aWZLrkcTzovMX18WFGheAUfs4KQXPM=</DigestValue>
+<DigestValue>2cGmmukKp/5um01m8+elBrMj/lgUPn/lk40eILtESjE=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcircle-helper.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1366,6 +1362,10 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>96RGetRl+o+KFFz/66yh1nV6S1rA6v93KgQy6+oFqlU=</DigestValue>
 </Reference>
+<Reference URI="secondPage.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>t6iFmnOB66HfT+Vpw1VYlqYZ9SwxEwuvp5MDo1azrJs=</DigestValue>
+</Reference>
 <Reference URI="widget%2FDemoWidget%2Fcss%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>oal5AloLbpMtdIHrQf5P0LFC6S9gDVLbx912BRD/+OY=</DigestValue>
@@ -1391,11 +1391,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-FI2I619r/wtf/+H5MrMcx5+M16d0N56qLTfNkPX7IwppbK/KmftPV3vCkCmpwPw9DiUw0U+vT7KU
-zTDd8fo9ilMqBAJLBmKolnIImuCCaCMCeJmJSQqo2XOZHtAW+JOSsySK9GnWlDH7CliymVH5nwyZ
-jgR3KjJDoN6z85u+eObsjD2dOl4QyNHZONWfYmE/aqfEZ35aYn8KED4I3oOxm1AOrkEquYrNP6gQ
-x5SyxxHHglQv+ZXoLNEUlhrVbNpcVlF6T30zEw8S1q/5awtyA1hdatrwfBaUW4tyk0hNSzU+Dmzn
-y7qq8Z7/2l7NY9615DT2G6sPFxmR5d9fGAe1Mw==
+I+80Y/eCB8adYfppkIyYGJMWogHJehjxUtNAc5dYFfVpsT0bqk0b4mG1H/xqA2MRNC1sPCB6jhRh
+LEzKZ1c1gEGA7XM9Ib2k/4vihsK45bYIu3yZ9C5p346SSjVh6IByd2jHGPtBV1GxMD5G8Vz9cy5Q
+B1+RIGfJI+yBv2D01F7w+OeIIOhlsAgSbIhakLzLGjDgg6Gt80Vg/SNBXzqPm7E1aROj3MTXOlZA
+vhPDx2gLvlfy+t5NWtDuMn31zPRtokw+Cqc1SZrEi6rbt2FoguFjjGPKqbgOcrdMpvqYkwSYy0Xo
+d42KttETQcyKm32xEFf/KUm5+ckCyTn1ITjbnw==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

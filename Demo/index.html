@@ -9,13 +9,14 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	
 	<div class="ui-page ui-page-active" id="main">
 		<header>
 			<h1 class="ui-title">Stations</h1>
 		</header>
 		<div class="ui-content">
 			<ul class="ui-listview">
-				<li><a href="SecondPage.html" onclick="addMachineStorage('Stauuu 1')">Station 1 </a></li>
+				<li><a href="#second" onclick="addMachineStorage('Stauuu 1')">Station 1 </a></li>
 				<li><a href="#">Station 2</a></li>
 				<li><a href="#">Station 3</a></li>
 				<li><a href="#">Station 4</a></li>
@@ -28,6 +29,27 @@
 			</ul>
 		</div>
 	</div>
+	
+	<div class="ui-page" id="second">
+         <header class="ui-header">
+            <h2 class="ui-title">Current State</h2>
+         </header>
+         <div id="secondContent" class="ui-content">
+            <script>
+            	function process() {
+            		var a="Station 1";
+            		
+					document.getElementById("secondContent").innerHTML=a;
+				}
+				
+				process();
+            </script>
+         </div>
+         <div id="thirdContent" class="ui-content">
+            Error - Rüsten
+         </div>
+      </div>
+      
 	<script src="lib/tau/wearable/js/tau.min.js"></script>
 	<script src="js/circle-helper.js"></script>
 	<script src="js/app.js"></script>

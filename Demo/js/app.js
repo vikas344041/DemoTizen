@@ -29,5 +29,9 @@ function addMachineStorage(data) {
     } else {
         alert("no localStorage in window");
     }
+    
+}
 
+function process(stationId) {
+	document.getElementById(stationId).innerHTML=localStorage.getItem("Station");
 }
