@@ -26,12 +26,10 @@ function addMachineStorage(data) {
     //localStorage setItem
     if ("localStorage" in window) {
         localStorage.setItem('Station', data);
+        document.getElementById("secondContent").innerHTML=data;
     } else {
         alert("no localStorage in window");
     }
     
 }
 
-function process(stationId) {
-	document.getElementById(stationId).innerHTML=localStorage.getItem("Station");
-}

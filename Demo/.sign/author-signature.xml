@@ -16,11 +16,11 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>kGwO9v5PZGwV//M49sguJ+Rvr+8mOTjhF0NtZ3Hs16Q=</DigestValue>
+<DigestValue>hv6qb23aYPje7rAf2IyeMb/Z87EGDY1xrMgyJdpTb0k=</DigestValue>
 </Reference>
 <Reference URI="js%2Fapp.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>2cGmmukKp/5um01m8+elBrMj/lgUPn/lk40eILtESjE=</DigestValue>
+<DigestValue>6RTNqux1a8gnya3XfDB6EU3Y2ts0CQnKnvY46g1XwNs=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcircle-helper.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1387,11 +1387,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-ji6cSmNb+37gm5yyPGmN6EbDdTtkEs37CMPpXvcfeAzXHHEBRQVDuQ0nDlJE7CbCWvF5ozLVaNlv
-OJNA1o2WHyJXlL8RUEUOvM6tQOeinGk0vXp8+K9a70nThQR1CN9l2I9x0VyB8vnqshjudfyalEFM
-YFaGnpJ7Hst/gYq6p33fRxsepQf8/tjYpOHgcpIPtddpI7UE6sPlBl9pwTzgFtVuSyQXmjftD/qY
-pUEEj42RzPuQeoNjJRc10O6h6ZRB4+lgLrQ3yqG8RR+6aTnX8BH6FC43E+g5s1xPzBcVakoxX+0k
-gSVfv+vEwauN0Js/0v+Xq8cnSBGO1hQArX6rSw==
+Z9unNworrbrc3XdRbg3lOEpv2rD6WG6/zff/KdpS1SQyZZ+eV651CxOQlopVgj7ogLeL5nc5rxX3
+NzrbvKlBmSZxvInOCDWk1i2ePjz5tai46Fasgr7aootUnxJCOEJnXIfttLx19w3K7UCDw/RgypIc
+vO277OPkrUNiqhGPWFEYNTjHCaYgtQZucRcBSzLSqqmOt6ZShhqquXcZXuIDn3e9VSi6Sfc/jOmJ
+9EyQkxaPVpZ+dZlDekdMM8smHYoJo+F+Yzoz7rlMupaWEqDXfXkgC3gPnuFrHqiIXsMEJgRMbIHN
+sc6SyiEc4DJRvnxGZ5RnppnhiKXRwUqN+QYWJg==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
