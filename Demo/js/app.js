@@ -21,15 +21,34 @@
 	});
 }());
 
-function addMachineStorage(data) {
-
-    //localStorage setItem
-    if ("localStorage" in window) {
-        localStorage.setItem('Station', data);
-        document.getElementById("secondContent").innerHTML=data;
-    } else {
-        alert("no localStorage in window");
-    }
-    
+function getMachineData(data) {
+    document.getElementById("secondContent").innerHTML=data;
+    postNotification(data);
 }
+
+function postNotification(data) {
+    var notification,
+        notificationDict;
+
+    try {
+        // Sets notification dictionary.
+        notificationDict = {
+            content: data,
+            actions:{vibration: true},
+            iconPath: "../icon.png",
+        };
+        // Creates notification object.
+        notification = new tizen.StatusNotification("SIMPLE", "Demo", notificationDict);
+
+        // Posts notification.
+        tizen.notification.post(notification);
+    } catch (err) {
+        console.log(err.name + ": " + err.message);
+    }
+    navigator.vibrate([1000, 500, 1000]);
+}
+
+
+
+
 

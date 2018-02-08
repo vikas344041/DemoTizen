@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/DemoWidget" version="1.0.0">
-    <tizen:app-widget id="NgptKPoxA9.DemoWidget.DemoWidget" primary="true">
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/Demo" version="1.0.0" viewmodes="maximized">
+    <tizen:app-widget id="6JttqBFT7K.Demo.DemoWidget" primary="true">
         <tizen:widget-label>Demo Widget!</tizen:widget-label>
         <tizen:widget-content src="widget/DemoWidget/index.html">
             <tizen:widget-size preview="widget/DemoWidget/preview.png">2x2</tizen:widget-size>
         </tizen:widget-content>
     </tizen:app-widget>
-    <tizen:application id="NgptKPoxA9.DemoWidget" package="NgptKPoxA9" required_version="4.0"/>
+    <tizen:application id="6JttqBFT7K.Demo" package="6JttqBFT7K" required_version="2.3.2"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>Demo</name>
     <tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
-    <icon src="icon.png"/>
-    <name>DemoWidget</name>
+    <tizen:privilege name="http://tizen.org/privilege/notification"/>
     <tizen:profile name="wearable"/>
+    <tizen:setting hwkey-event="enable"/>
 </widget>
